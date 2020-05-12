@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.ManagerMenuController">
+   <children>
+      <Text layoutX="24.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What would you like to do today">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Button layoutX="40.0" layoutY="103.0" mnemonicParsing="false" onAction="#addCarScene" text="1. Add Car" />
+      <Button layoutX="40.0" layoutY="155.0" mnemonicParsing="false" onAction="#removeCarScene" text="2. Remove Car" />
+      <Button layoutX="40.0" layoutY="206.0" mnemonicParsing="false" text="3. Update Customer " />
+      <Button layoutX="40.0" layoutY="259.0" mnemonicParsing="false" text="4. View All Car" />
+   </children>
+</AnchorPane>

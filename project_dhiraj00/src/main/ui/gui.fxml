@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<SplitPane dividerPositions="0.12" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.Scene1Controller">
+  <items>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+         <children>
+            <Text fontSmoothingType="LCD" layoutX="90.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome To ABC Cars" textAlignment="CENTER" wrappingWidth="418.00439453125">
+               <font>
+                  <Font name="Monotype Corsiva" size="46.0" />
+               </font>
+            </Text>
+         </children></AnchorPane>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+         <children>
+            <ImageView layoutX="199.0" layoutY="-54.0" pickOnBounds="true" preserveRatio="true" />
+            <TextFlow layoutX="169.0" layoutY="-2.0" prefHeight="32.0" prefWidth="261.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Serving happy customers since 1987" textAlignment="CENTER" wrappingWidth="255.03662109375" />
+               </children>
+            </TextFlow>
+            <ImageView fitHeight="255.0" fitWidth="477.0" layoutX="62.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="https://classiccarcuration.co.uk/wp-content/uploads/2018/07/Beaulieu-Supercar-Weekend-Feature-678x380.jpg" />
+               </image>
+            </ImageView>
+            <Text layoutX="112.0" layoutY="292.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Countinue ahead for a smooth and hassle free car rental" wrappingWidth="374.97369384765625" />
+            <Button layoutX="169.0" layoutY="297.0" mnemonicParsing="false" onAction="#nextScene" text="Continue" />
+            <Button layoutX="299.0" layoutY="297.0" mnemonicParsing="false" onAction="#byeBye" text="No, I dont Like Cars" />
+         </children></AnchorPane>
+  </items>
+</SplitPane>

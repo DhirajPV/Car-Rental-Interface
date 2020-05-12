@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.Scene1Controller">
+   <children>
+      <Text layoutX="14.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The main cars in our fleet are">
+         <font>
+            <Font name="Monotype Corsiva" size="24.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="121.0" fitWidth="181.0" layoutX="14.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="https://upload.wikimedia.org/wikipedia/commons/1/1f/Jaguar_XJ_vs._Jetman_-_World-First_Desert_Drag_Race_%2822928441043%29.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="121.0" fitWidth="181.0" layoutX="14.0" layoutY="175.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/gallery_slide/public/1-bmw-8-series-coupe-2019-rt-hero-front.jpg?itok=wlnBxsQ8"/>
+         </image>
+      </ImageView>
+      <ImageView fitHeight="121.0" fitWidth="181.0" layoutX="14.0" layoutY="290.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="https://www.audi.ca/content/dam/nemo/ca/Models/MYCO_2017/A5-Sportback/1920x1080-Gallery/1920x1080_A169167_large.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="121.0" fitWidth="181.0" layoutX="405.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="https://vehicle-photos-published.vauto.com/85/50/12/fb-2b2f-480f-ad13-b14d38209c7b/image-1.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="121.0" fitWidth="181.0" layoutX="405.0" layoutY="165.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="https://s.aolcdn.com/commerce/autodata/images/CAC70NIC131A021001.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="102.0" fitWidth="171.0" layoutX="405.0" layoutY="290.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="http://anarchak.com/wp-content/uploads/2018/06/superior-supercars-lined-up-2-white-supercar-ocean-invasion-youtube-1920x1080.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="201.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Jaguar XJ 2018" />
+      <Text layoutX="268.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Range Rover Evoque" />
+      <Text layoutX="320.0" layoutY="272.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nissan GTR" wrappingWidth="75.93408203125" />
+      <Text layoutX="201.0" layoutY="191.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BMW Coupe" />
+      <Text layoutX="269.0" layoutY="357.0" strokeType="OUTSIDE" strokeWidth="0.0" text="And Many More ...... " />
+      <Text layoutX="201.0" layoutY="306.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Audi A5" />
+      <Button layoutX="304.0" layoutY="362.0" mnemonicParsing="false" onAction="#nextScene" text="Go Back" />
+   </children>
+</AnchorPane>

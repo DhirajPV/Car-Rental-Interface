@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<SplitPane dividerPositions="0.12" orientation="VERTICAL" prefHeight="401.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.Scene2Controller">
+   <items>
+      <AnchorPane>
+         <children>
+            <Text layoutX="14.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Main Menu">
+               <font>
+                  <Font name="Monotype Corsiva" size="42.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+         <children>
+            <Text layoutX="14.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please select one of the following options">
+               <font>
+                  <Font name="Goudy Old Style" size="24.0" />
+               </font>
+            </Text>
+            <Button layoutX="14.0" layoutY="92.0" mnemonicParsing="false" onAction="#sceneCust" text="1. Customer" />
+            <Button layoutX="14.0" layoutY="179.0" mnemonicParsing="false" onAction="#sceneContact" text="3. Contact us" />
+            <Button layoutX="14.0" layoutY="135.0" mnemonicParsing="false" onAction="#sceneManag" text="2. Manager" />
+         </children>
+      </AnchorPane>
+   </items>
+</SplitPane>
